@@ -66,6 +66,7 @@ According to the articles mentioned, Truong et.al propose the following architec
 * __ResNet18__ a model using residual nets and fast.ai
 * __TFM2__ a model based on VGG16 with fine tunning
 * __DenseNet__ a proposal using DenseNet concepts
+* __VGG16__ a fast.ai model using VGG19
 
 
 
