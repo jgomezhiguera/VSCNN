@@ -1,6 +1,6 @@
 # Visual sentimen analysis using CNN
 
-The project contains main findings related with transfer learning using Tensorflow, Keras, fastai and D2L and test new proposed architectures. All of them are Convolutional Neural Networks (CNN) and for the best training model fine tunning techniques have been applied.
+The project contains main findings related with transfer learning using Tensorflow, Keras, fast.ai and D2L and test new proposed architectures. All of them are Convolutional Neural Networks (CNN) and for the best training model fine tunning techniques have been applied.
 
 Access to hardware is a barrier to training more epochs, more deep networks or use big datasets.
 
@@ -53,7 +53,19 @@ According to the articles mentioned, Truong et.al propose the following architec
 
 ![Architecture used by Truong et.al](/Images/acmmm17.PNG)
 
-* __"Réplica"__ model try to training a similar architecture.
-* __"Best"__ dir contains model whit best results
+* __"Réplica"__ model try to training a similar architecture with augmented data, early stoping and l2 regularization
+* __"Best"__ dir contains model with best results, based on AutoKeras
+* __AK_FULL__ first AutoKeras, used to propose other architectures
+* __ALPropio__ architecture based on AlexNet, augmented data and l2 regularization
+* __BasedOnAlexnet__ architectural proposal based on AlexNet
+* __FT_Modelo1__ Fine tunning to Model1
+* __"Inception"__ model training this architecture type. Input size is 96 due to computational restrictions
+* __ModelPAdjusted__ model with regularization, data augmentation and initializers. __It was a base model__
+* __Modelo1__ another AutoKeras model
+* __Propio__ a model proposed by the author of this project
+* __ResNet18__ a model using residual nets and fast.ai
+* __TFM2__ a model based on VGG16 with fine tunning
+* __DenseNet__ a proposal using DenseNet concepts
 
-* __"Inception"__ model training this a
+
+
