@@ -1,6 +1,6 @@
 # Visual sentimen analysis using CNN
 
-The project contains main findings related with transfer learning using Tensorflow and Keras and test proposed architectures. All of them are Convolutional Neural Networks (CNN) and for the best training model fine tunning techniques have been applied.
+The project contains main findings related with transfer learning using Tensorflow, Keras, fastai and D2L and test new proposed architectures. All of them are Convolutional Neural Networks (CNN) and for the best training model fine tunning techniques have been applied.
 
 Access to hardware is a barrier to training more epochs, more deep networks or use big datasets.
 
@@ -46,3 +46,6 @@ Datasets could be download follow the instructions in https://github.com/Preferr
 Users dataset -used for training- consist of 45.646 images from YELP reviews and Users Boston dataset has 1.194 images for validation.
 
 All of the datasets included in mentioned documents could not be used due to their size and restrictions related with hardware avalaible.
+
+## Models
+
