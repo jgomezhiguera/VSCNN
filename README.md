@@ -49,4 +49,8 @@ All of the datasets included in mentioned documents could not be used due to the
 
 ## Models
 
-According to the articles mentioned, the authors propose the following architecture for the problem of binary sentiment classification based on images ![Architecture used by Truong et.al](/Images/acmmm17.png)
+According to the articles mentioned, the authors propose the following architecture for the problem of binary sentiment classification based on images:
+
+![Architecture used by Truong et.al](/Images/acmmm17.PNG)
+
+__"Réplica"__ model try to training a similar architecture.
