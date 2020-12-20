@@ -68,5 +68,8 @@ According to the articles mentioned, Truong et.al propose the following architec
 * __DenseNet__ a proposal using DenseNet concepts
 * __VGG16__ a fast.ai model using VGG19
 
+## Results
 
+Table below summarise main findings
 
+![Main results](/Images/Results.PNG)
